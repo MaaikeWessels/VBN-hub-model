@@ -14,43 +14,43 @@ distance_matrix = np.array([
     [81	,21, 38, 24, 38, 0]
 ])
 #Arnhem
-file = open("C:/Users/maaik/OneDrive/Documents/Econometrics year 3/thesis/python/test arnhem for python.csv", "r")
+file = open("", "r")
 data = list(csv.reader(file, delimiter=";"))
 file.close()
 distance_matrix2 = np.array(data).astype(np.int)
 
 #Brabant-Zeeland
-file = open("C:/Users/maaik/OneDrive/Documents/Econometrics year 3/thesis/python/test brabant zeeland for python.csv", "r")
+file = open("", "r")
 data = list(csv.reader(file, delimiter=";"))
 file.close()
 distance_matrix1 = np.array(data).astype(np.int)
 
 #Friesland
-file = open("C:/Users/maaik/OneDrive/Documents/Econometrics year 3/thesis/python/test friesland for python.csv", "r")
+file = open("", "r")
 data = list(csv.reader(file, delimiter=";"))
 file.close()
 distance_matrix3 = np.array(data).astype(np.int)
 
 #Haaglanden
-file = open("C:/Users/maaik/OneDrive/Documents/Econometrics year 3/thesis/python/test haaglanden for python.csv", "r")
+file = open("", "r")
 data = list(csv.reader(file, delimiter=";"))
 file.close()
 distance_matrix4 = np.array(data).astype(np.int)
 
 #Rotterdam
-file = open("C:/Users/maaik/OneDrive/Documents/Econometrics year 3/thesis/python/test rotterdam for python.csv", "r")
+file = open("", "r")
 data = list(csv.reader(file, delimiter=";"))
 file.close()
 distance_matrix6 = np.array(data).astype(np.int)
 
 #Salland-Twente
-file = open("C:/Users/maaik/OneDrive/Documents/Econometrics year 3/thesis/python/test salland twente for python.csv", "r")
+file = open("", "r")
 data = list(csv.reader(file, delimiter=";"))
 file.close()
 distance_matrix7 = np.array(data).astype(np.int)
 
 #Noord Holland
-file = open("C:/Users/maaik/OneDrive/Documents/Econometrics year 3/thesis/python/test noord holland for python.csv", "r")
+file = open("", "r")
 data = list(csv.reader(file, delimiter=";"))
 file.close()
 distance_matrix8 = np.array(data).astype(np.int)
